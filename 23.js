@@ -1,0 +1,12 @@
+/ **
+* 1- Crie um programa que utilize como 3 dimensões de uma piscina para
+* quantos litros de água ela comporta. (1000 litros = 1m³)
+* 
+* 2- Faça com que o programa imprima o resultado de forma amigável.
+* Ex:
+* A piscina comporta 50000 litros de água      
+* /
+
+let comprimento  =  10 ;
+let  largura  =  4 ;
+let profundidade = 2 ; 
