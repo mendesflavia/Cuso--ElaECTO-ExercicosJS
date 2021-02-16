@@ -1,12 +1,13 @@
-<! -
-  1- Crie um site que exiba um carrossel de imagens baseado em um vetor com a URL das mesmas.
-  O carrossel deve mudar automaticamente a cada 2 segundos.
+/*
+  1- Crie uma página que utilize o valor de numeroQuadrados para criar divs dentro
+  da seção. Cada quadrado deve reagir mudando sua cor de fundo para vermelho
+  quando o usuário passa o mouse sobre ele. Esse efeito é aplicado inidivualmente
+  para cada quadrado.
   
-  2- navegação dois botões para controle manual do carrossel: avançar e retroceder
-  
-  3- Faça com que os botões de controle do carrossel também parem o funcionamento automático dele.
-->
-
+  2- Buscador mais ton de vermelho em quadrado, de forma que quando o
+  usuario passar o mouse sobre o quadrado, ele avance para o proxima tom.
+  Ex: branco -> vermelho claro -> vermelho medio -> vermelho escuro  
+*/
 <! DOCTYPE html >
 < html >
 < cabeça >
@@ -14,11 +15,28 @@
   < título > </ título >
 </ head >
 < corpo >
+  < estilo >
+    corpo {
+      margem : 0 ;
+    }
+    seção {
+      display : flex;
+    }
+    
+    seção  div {
+      largura : 100 px ;
+      altura : 100 px ;
+      cor de fundo: branco;
+      borda : 1 px vermelho sólido;
+    }
+  </ estilo >
   
-  < img  src = "" alt = "" >
+  < seção >
+    
+  </ seção >
   
   < script  type = " text / javascript " >
-    deixe  imagens  =  [ ] ;
+    deixe  numeroQuadrados  =  50 ;
   </ script >
 </ body >
-</ html >
+</ html > 
